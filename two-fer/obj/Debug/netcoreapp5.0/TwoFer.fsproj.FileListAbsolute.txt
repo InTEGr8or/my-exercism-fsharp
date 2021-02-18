@@ -1,0 +1,12 @@
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\testhost.exe
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\testhost.dll
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\TwoFer.deps.json
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\TwoFer.runtimeconfig.json
+C:\Users\xgenx\Exercism\fsharp\two-fer\bin\Debug\netcoreapp5.0\TwoFer.runtimeconfig.dev.json
+C:\Users\xgenx\Exercism\fsharp\two-fer\obj\Debug\netcoreapp5.0\TwoFer.AssemblyInfoInputs.cache
+C:\Users\xgenx\Exercism\fsharp\two-fer\obj\Debug\netcoreapp5.0\TwoFer.AssemblyInfo.fs
+C:\Users\xgenx\Exercism\fsharp\two-fer\obj\Debug\netcoreapp5.0\TwoFer.genruntimeconfig.cache
+c:\Users\xgenx\Exercism\fsharp\two-fer\obj\Debug\netcoreapp5.0\TwoFer.fsproj.CoreCompileInputs.cache

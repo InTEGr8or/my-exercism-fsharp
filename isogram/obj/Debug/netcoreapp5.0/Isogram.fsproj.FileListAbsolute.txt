@@ -1,0 +1,13 @@
+C:\Users\xgenx\Exercism\fsharp\isogram\obj\Debug\netcoreapp5.0\Isogram.AssemblyInfoInputs.cache
+C:\Users\xgenx\Exercism\fsharp\isogram\obj\Debug\netcoreapp5.0\Isogram.AssemblyInfo.fs
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\testhost.dll
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\testhost.exe
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\Isogram.deps.json
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\Isogram.runtimeconfig.json
+C:\Users\xgenx\Exercism\fsharp\isogram\bin\Debug\netcoreapp5.0\Isogram.runtimeconfig.dev.json
+C:\Users\xgenx\Exercism\fsharp\isogram\obj\Debug\netcoreapp5.0\Isogram.genruntimeconfig.cache
+c:\Users\xgenx\Exercism\fsharp\isogram\obj\Debug\netcoreapp5.0\Isogram.fsproj.CoreCompileInputs.cache

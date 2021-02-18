@@ -1,0 +1,14 @@
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\testhost.exe
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\testhost.dll
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\xunit.runner.utility.netcoreapp10.dll
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\Gigasecond.deps.json
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\Gigasecond.runtimeconfig.json
+c:\Users\xgenx\Exercism\fsharp\gigasecond\bin\Debug\netcoreapp5.0\Gigasecond.runtimeconfig.dev.json
+c:\Users\xgenx\Exercism\fsharp\gigasecond\obj\Debug\netcoreapp5.0\Gigasecond.AssemblyInfoInputs.cache
+c:\Users\xgenx\Exercism\fsharp\gigasecond\obj\Debug\netcoreapp5.0\Gigasecond.AssemblyInfo.fs
+c:\Users\xgenx\Exercism\fsharp\gigasecond\obj\Debug\netcoreapp5.0\Gigasecond.fsproj.CoreCompileInputs.cache
+c:\Users\xgenx\Exercism\fsharp\gigasecond\obj\Debug\netcoreapp5.0\Gigasecond.genruntimeconfig.cache
+C:\Users\xgenx\Exercism\fsharp\gigasecond\obj\Debug\netcoreapp5.0\Gigasecond.fsprojAssemblyReference.cache

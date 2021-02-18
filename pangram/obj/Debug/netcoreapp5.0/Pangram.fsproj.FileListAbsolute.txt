@@ -1,0 +1,13 @@
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\testhost.exe
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\testhost.dll
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\xunit.runner.utility.netcoreapp10.dll
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\Pangram.deps.json
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\Pangram.runtimeconfig.json
+c:\Users\xgenx\Exercism\fsharp\pangram\bin\Debug\netcoreapp5.0\Pangram.runtimeconfig.dev.json
+c:\Users\xgenx\Exercism\fsharp\pangram\obj\Debug\netcoreapp5.0\Pangram.AssemblyInfoInputs.cache
+c:\Users\xgenx\Exercism\fsharp\pangram\obj\Debug\netcoreapp5.0\Pangram.AssemblyInfo.fs
+c:\Users\xgenx\Exercism\fsharp\pangram\obj\Debug\netcoreapp5.0\Pangram.genruntimeconfig.cache
+c:\Users\xgenx\Exercism\fsharp\pangram\obj\Debug\netcoreapp5.0\Pangram.fsproj.CoreCompileInputs.cache
