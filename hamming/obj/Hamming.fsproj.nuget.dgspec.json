@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj": {}
+    "c:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj": {
+    "c:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj",
+        "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj",
         "projectName": "Hamming",
-        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj",
+        "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj",
         "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\obj\\",
+        "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

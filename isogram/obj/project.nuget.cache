@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzqhIQShG9RSJN3Q7In7FTsxtAKXvgzRqar1+5bIsxO2NN74atksGCzL3VZI91iu4Nl8Xx4FELW8rh+lKAf2ww==",
+  "dgSpecHash": "DmcVk3Hm0X2ffYE+Y5Ri2E/jUhZSZc6v3/eh+59c8wzkdCPIYoojgQrZaJb8m+i9waU8/IGe0e4agZWMSqUMBQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj",
+  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

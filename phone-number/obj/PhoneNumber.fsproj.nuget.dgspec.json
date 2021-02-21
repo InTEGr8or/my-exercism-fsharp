@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj": {}
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj": {}
   },
   "projects": {
-    "c:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj": {
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj",
+        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj",
         "projectName": "PhoneNumber",
-        "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj",
+        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj",
         "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\obj\\",
+        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

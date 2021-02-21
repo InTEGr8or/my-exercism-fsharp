@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S0w352IpB2yua/CcO4JOj6xWe4WOEFc7VMXRrzTNPw31h13zfURx+11P6nh+9URN8Crp5LZVpSM9YNqqQRpIug==",
+  "dgSpecHash": "Cr6uqiIwWDVA3pV3+tJbeeOpiu9bSRp+D52ywgISJCszpyaorJxz++KcOAkfMPPq5F8rZKIXdnQxxqZhHV202A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj",
+  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\phone-number\\PhoneNumber.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

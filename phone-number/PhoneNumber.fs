@@ -22,15 +22,15 @@ let clean (input:string): Result<uint64,string> =
     //This all seems a bit verbose. I can't wait to check this in to look at how other people solved this problem.
     let phone = Phone(input);
     match phone with
-        | phone when phone.Length < 10 -> Error "incorrect number of digits"
-        | phone when phone.Length > 11 -> Error "more than 11 digits"
-        | stripped when Regex.Match(phone.Text, "[a-zA-Z]").Length > 0 -> Error "letters not permitted"
-        | stripped when Regex.Match(phone.Text, "[^\d]").Length > 0 -> Error "punctuations not permitted"
-        | phone when phone.Area.ToCharArray().[0] = '0' -> Error "area code cannot start with zero"
-        | phone when phone.Area.ToCharArray().[0] = '1' -> Error "area code cannot start with one"
-        | phone when phone.Exchange.ToCharArray().[0] = '0' -> Error "exchange code cannot start with zero"
-        | phone when phone.Exchange.ToCharArray().[0] = '1' -> Error "exchange code cannot start with one"
-        | phone when phone.Length = 11 && phone.Text.ToCharArray().[0] <> '1' -> Error "11 digits must start with 1"
-        | phone when phone.Country = None -> Ok (uint64 phone.Text)
-        | phone when phone.Length = 11 -> Ok (uint64(String.Join("", phone.Text.ToCharArray().[1..])))
+        | _ when phone.Length < 10 -> Error "incorrect number of digits"
+        | _ when phone.Length > 11 -> Error "more than 11 digits"
+        | _ when Regex.Match(phone.Text, "[a-zA-Z]").Length > 0 -> Error "letters not permitted"
+        | _ when Regex.Match(phone.Text, "[^\d]").Length > 0 -> Error "punctuations not permitted"
+        | _ when phone.Area.[0] = '0' -> Error "area code cannot start with zero"
+        | _ when phone.Area.[0] = '1' -> Error "area code cannot start with one"
+        | _ when phone.Exchange.[0] = '0' -> Error "exchange code cannot start with zero"
+        | _ when phone.Exchange.[0] = '1' -> Error "exchange code cannot start with one"
+        | _ when phone.Length = 11 && phone.Text.[0] <> '1' -> Error "11 digits must start with 1"
+        | _ when phone.Country = None -> Ok (uint64 phone.Text)
+        | _ when phone.Length = 11 -> Ok (uint64(String.Join("", phone.Text.[1..])))
         | _ -> Error "incorrect number of digits"

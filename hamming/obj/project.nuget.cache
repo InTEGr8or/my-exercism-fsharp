@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d+BobuWuPaBx0GpmNT7m+puobprbj4nQVRHDhNYGIZaucbSWa6qLVdqcvDQElrtfmJhopGsIMXJsUeDp97393g==",
+  "dgSpecHash": "+KJFUqyRr3ZxfskPPhIPoK/u+66SBEDgXzhZdCOmUVaTPHN3CqBz5b3ZKVm4Vm0YWyqGzkXW9x31h7ZWvPDLwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj",
+  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\hamming\\Hamming.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

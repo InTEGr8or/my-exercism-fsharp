@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj": {}
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj": {}
   },
   "projects": {
-    "c:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj": {
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj",
+        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj",
         "projectName": "Pangram",
-        "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj",
+        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj",
         "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\obj\\",
+        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj": {}
+    "c:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj": {
+    "c:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj",
+        "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj",
         "projectName": "Gigasecond",
-        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj",
+        "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\Gigasecond.fsproj",
         "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\obj\\",
+        "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\gigasecond\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
