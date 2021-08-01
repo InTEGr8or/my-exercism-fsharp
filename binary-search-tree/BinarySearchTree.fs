@@ -1,7 +1,7 @@
 ﻿module BinarySearchTree
 open System
 
-type Leaf = {value:Int64; left:Leaf option; right:Leaf option}
+type Leaf = {value:int; left:Leaf option; right:Leaf option}
 
 let rec insertLeaf (tree:Leaf option) (newValue:int) : Leaf  =
     match tree with 
