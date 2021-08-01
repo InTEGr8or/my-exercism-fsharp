@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fioOYvJ84AsTiMTh+GlzlD56XNTYpmhHDxRrZGnr3Twc0OprQjmJCABXB1ZaUClX90p2wlweTtd2GjKlKFtgHA==",
+  "dgSpecHash": "OMSFRWBJ3EapbFpQLI/38I4HOXEsgVT+zHmOCYCl/Jd8rSeYJpCdKi+h4PVo4t//afBVdK+TSNA0QAAg6zE6bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj",
+  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\pangram\\Pangram.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

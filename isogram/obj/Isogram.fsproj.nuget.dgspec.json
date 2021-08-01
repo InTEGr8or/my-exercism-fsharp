@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj": {}
+    "c:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj": {
+    "c:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj",
+        "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj",
         "projectName": "Isogram",
-        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj",
+        "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\Isogram.fsproj",
         "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\obj\\",
+        "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\isogram\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

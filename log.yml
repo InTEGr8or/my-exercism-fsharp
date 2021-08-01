@@ -1,0 +1,9 @@
+
+2021-06-12 19:51:01 Literal
+Files ["this"; "is"; "a"; "test"]
+2021-06-12 22:40:11 Ignore "datetime"
+Files ["file_name.txt"; "bob.txt"]
+2021-06-12 22:40:51 Ignore "2007-06-01"
+Files ["file_name.txt"; "bob.txt"]
+2021-06-12 22:41:12 Ignore "2007-06-01_12:00:01"
+Files ["file_name.txt"; "bob.txt"]

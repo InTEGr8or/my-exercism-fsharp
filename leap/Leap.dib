@@ -1,0 +1,33 @@
+#!markdown
+
+# Leap
+
+#!fsharp
+
+open System
+// module Leap
+
+let isModular y m = (y % m) = 0
+
+let leapYear (year: int): bool = 
+    match year with
+    | (year % 400) = 0 -> true
+    | (year % 100) = 0 -> false
+    | (year % 4) = 0 -> true
+    | _ -> false
+
+#!fsharp
+
+let (|Leap|Exclude|) (input:int) = 
+    match input % 4 with
+    | 0 -> Leap
+    | _ -> Exclude
+
+let TestNumber input =
+   match input with
+   | Leap -> printfn "%d is Leap" input
+   | Exclude -> printfn "%d is NOT Leap" input
+
+TestNumber 2015
+TestNumber 2000
+TestNumber 1960

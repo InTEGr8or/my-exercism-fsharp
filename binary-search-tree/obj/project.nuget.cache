@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FOplJmEtKb+BH3irkNuYYLAGZX4s13UDboDZfW6N4dI4Yuk+HeNZhDOFW2P/M/JPitrJx1pfqV5f9qYmZLX1Jw==",
+  "dgSpecHash": "8ACe1RoKBL3dUCrYbCXkHOoGr7NYnKKToam4Jqg3e/Qm4oof8T+hZYrgL6WRQ74RTm/Bt2HQnTZnT1R19B9Lvw==",
   "success": true,
   "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
   "expectedPackageFiles": [
@@ -59,10 +59,7 @@
     "C:\\Users\\xgenx\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+    "C:\\Users\\xgenx\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

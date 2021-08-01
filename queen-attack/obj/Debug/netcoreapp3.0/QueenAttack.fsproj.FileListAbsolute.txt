@@ -1,0 +1,3 @@
+c:\Users\xgenx\Exercism\fsharp\queen-attack\obj\Debug\netcoreapp3.0\QueenAttack.AssemblyInfoInputs.cache
+c:\Users\xgenx\Exercism\fsharp\queen-attack\obj\Debug\netcoreapp3.0\QueenAttack.AssemblyInfo.fs
+c:\Users\xgenx\Exercism\fsharp\queen-attack\obj\Debug\netcoreapp3.0\QueenAttack.fsproj.CoreCompileInputs.cache

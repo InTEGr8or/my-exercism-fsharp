@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v8dMVlmZ/7t+vRVqnt3jqpze8i5Bz1GWiBAhHiSNYHg6eiQgdXdjJe2A20vbcB71JiHgbetDrN09q9ltwOl1LA==",
+  "dgSpecHash": "svNxwwDjggkyLqVFM/eNVGB9DMFsQxCNCKipASVno9upzfcCSs3FSnrcstvVyCw3kn10MInbMqRTUx7plabGPw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj",
+  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

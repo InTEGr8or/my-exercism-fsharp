@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj": {}
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj": {}
   },
   "projects": {
-    "c:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj": {
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj",
+        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj",
         "projectName": "TwelveDays",
-        "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj",
+        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\TwelveDays.fsproj",
         "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\obj\\",
+        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\twelve-days\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\xgenx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -25,9 +25,8 @@
           "netcoreapp5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://qqdevelopment.pkgs.visualstudio.com/_packaging/QQHostedNuget/nuget/v3/index.json": {}
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -41,8 +40,9 @@
           "targetAlias": "netcoreapp5.0",
           "dependencies": {
             "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[5.0.0-beta.*, )",
               "generatePathProperty": true
             },
             "FsUnit.xUnit": {
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
         }
       }
     }
