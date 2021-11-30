@@ -1,0 +1,22 @@
+#!fsharp
+
+let create (position: int * int): bool = 
+    let mutable result = true
+    let (x,y) = position
+    if x > 7 || x < 0 then result <- false
+    if y > 7 || y < 0 then result <- false
+
+    result
+
+create (0,5)
+
+#!fsharp
+
+let canAttack (queen1: int * int) (queen2: int * int) = 
+    let (x1, y1) = queen1
+    let (x2, y2) = queen2
+    let dx = x2 - x1
+    let dy = y2 - y1
+    x1 = x2 || y1 = y2 || dy/dx = 1 || dy/dx = -1 
+
+canAttack (2,2) (2,3)

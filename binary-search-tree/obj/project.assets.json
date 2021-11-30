@@ -3838,7 +3838,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FSharp.Core >= 5.0.0",
+      "FSharp.Core >= 5.0.0-beta.*",
       "FsUnit.xUnit >= 4.0.4",
       "Microsoft.NET.Test.Sdk >= 16.8.3",
       "xunit >= 2.4.1",
@@ -3847,19 +3847,19 @@
   },
   "packageFolders": {
     "C:\\Users\\xgenx\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
+      "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
       "projectName": "BinarySearchTree",
-      "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
+      "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
       "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\obj\\",
+      "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\xgenx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3870,9 +3870,8 @@
         "netcoreapp5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://qqdevelopment.pkgs.visualstudio.com/_packaging/QQHostedNuget/nuget/v3/index.json": {}
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -3886,8 +3885,9 @@
         "targetAlias": "netcoreapp5.0",
         "dependencies": {
           "FSharp.Core": {
+            "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[5.0.0, )",
+            "version": "[5.0.0-beta.*, )",
             "generatePathProperty": true
           },
           "FsUnit.xUnit": {
@@ -3926,7 +3926,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
       }
     }
   }

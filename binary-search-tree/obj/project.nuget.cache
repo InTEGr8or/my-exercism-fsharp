@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ACe1RoKBL3dUCrYbCXkHOoGr7NYnKKToam4Jqg3e/Qm4oof8T+hZYrgL6WRQ74RTm/Bt2HQnTZnT1R19B9Lvw==",
+  "dgSpecHash": "WqNHmslbBYNEy/FB0zPuemvCMUglsQfA+kyk3jo2FEETx22ryBehiNXyWsZS63sVa7MD2DWKbsF4aDefxUaSiw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
+  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\binary-search-tree\\BinarySearchTree.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

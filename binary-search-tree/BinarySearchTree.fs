@@ -1,23 +1,64 @@
 ﻿module BinarySearchTree
 open System
+type Node<'a> =
+    | None
+    | Node of Data:'a * Left:Node<'a> * Right:Node<'a>
 
-type Leaf = {value:int; left:Leaf option; right:Leaf option}
+let data = function None -> failwith "Empty Tree" | Node (d, _, _) -> d
+// let left = function Empty -> None | Node (_, l, _) -> Some l
+let left node =
+    match node with
+    | None -> None
+    | Node (_, l, _) -> Some l
 
-let rec insertLeaf (tree:Leaf option) (newValue:int) : Leaf  =
-    match tree with 
-    | Some t -> if newValue < t.value then {t with left=Some (insertLeaf t.left newValue)}
-                else if newValue > t.value then {t with right=Some (insertLeaf t.right newValue)}
-                else t
-    | None -> {value=newValue; left=None; right=None}
-
-let left node  = Leaf
-
-let right node = failwith "You need to implement this function."
-
-let data node option = failwith "You need to implement this function."
-
-let create items = failwith "You need to implement this function."
-
-let sortedData node = failwith "You need to implement this function."
+let right node = 
+    match node with
+    | None -> None
+    | Node (_, _, r) -> Some r
 
 
+let first root = 
+    let rec goLeft node =
+        match node with
+        | None -> None
+        | Node (d, ln, _) ->
+            match ln with
+            | None -> d
+            | Node _ -> goLeft ln
+
+    goLeft root
+
+let last root = 
+    let rec goRight node =
+        match node with
+        | None -> None
+        | Node (d, _, rn) ->
+            match rn with
+            | None -> d
+            | Node _ -> goRight rn
+
+    goRight root
+
+let rec insert data root =
+    match root with
+    | None -> Node(data, None, None)
+    | Node (d, l, r) ->
+        match data <= d with
+        | true -> Node (d, l |> insert data, r)
+        | false -> Node (d, l, r |> insert data)
+
+let toOrderedSeq root =
+    let rec dfs node =
+        match node with
+        | None -> Seq.empty
+        | Node (d, ln, rn) -> seq {
+                yield! dfs ln
+                yield d
+                yield! dfs rn
+            }
+
+    dfs root
+
+let create data = 
+    data 
+    |> List.fold (fun n x -> n |> insert x) None 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eoJMhdLGZalvXnGswugRoWl6Y06yCMPRM6ymz5ymSyfHArfOgSPJ5KlcJelzaInQ2YcSNhsmTo5rYwLh4l4d+g==",
+  "dgSpecHash": "B34uqQgKONPB1wWQ0fCpyDRIhzWd5bs4qpE0Wj7boUjzEKsDa+lOBvDlZRcVaqVEnDsr+WdiO5GO9XrjYKX2qg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\QueenAttack.fsproj",
+  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\QueenAttack.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",

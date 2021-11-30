@@ -3838,7 +3838,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "FSharp.Core >= 5.0.0-beta.*",
+      "FSharp.Core >= 5.0.0",
       "FsUnit.xUnit >= 4.0.4",
       "Microsoft.NET.Test.Sdk >= 16.8.3",
       "xunit >= 2.4.1",
@@ -3852,11 +3852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\QueenAttack.fsproj",
+      "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\QueenAttack.fsproj",
       "projectName": "QueenAttack",
-      "projectPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\QueenAttack.fsproj",
+      "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\QueenAttack.fsproj",
       "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\obj\\",
+      "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\queen-attack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -3870,8 +3870,7 @@
         "netcoreapp3.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
@@ -3887,7 +3886,7 @@
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
-            "version": "[5.0.0-beta.*, )",
+            "version": "[5.0.0, )",
             "generatePathProperty": true
           },
           "FsUnit.xUnit": {
@@ -3940,7 +3939,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,76 @@
+#!fsharp
+
+open System
+
+let abbreviate (phrase:string) =
+    [ for word in phrase.Split[|' ';'-'|] -> word.[0..0].ToUpper() ] 
+    |> String.concat ""
+
+abbreviate "The quick brown-fox jumps over the lazy dog"
+
+#!fsharp
+
+let reverse (input: string): string =
+    input |> Seq.rev |> String.Concat
+
+reverse "The quick brown-fox jumps over the lazy dog"
+
+#!fsharp
+
+#r "nuget: FsUnit.Xunit"
+open FsUnit.Xunit
+open Xunit
+
+type Plant =
+| Radishes
+| Clover
+| Grass
+| Violets
+| None
+
+let Students = [|"Alice"; "Bob"; "Charlie"; 
+    "David"; "Eve"; "Fred"; 
+    "Ginny"; "Harriet"; "Ileana"; 
+    "Joseph"; "Kincaid"; "Larry"|]
+
+let plantFromChar (x:char): Plant =
+    match x with
+    | 'R' -> Radishes
+    | 'C' -> Clover
+    | 'G' -> Grass
+    | 'V' -> Violets
+    | _ -> None
+
+#!fsharp
+
+let plants (diagram:string) (student:string) = 
+    let rows = diagram.Split("\n")
+    let column = Students |> Array.findIndex ((=) student)
+    $"{rows.[0].[column..column+1]}{rows.[1].[column..column+1]}"
+    
+
+plants "RC\nGG" "Alice" |> Seq.map (fun c -> plantFromChar c) |> printfn "%O"
+
+#!fsharp
+
+let student = "Alice"
+let diagram = "RC\nGG"
+let expected = [Plant.Radishes; Plant.Clover; Plant.Grass; Plant.Grass]
+plants diagram student |> should equal expected
+
+#!fsharp
+
+let scores (values: int list): int list = 
+    values
+
+let latest (values: int list): int = 
+    values |> List.reduce (fun _ i -> i)
+
+let personalBest (values: int list): int = 
+    values |> List.sortDescending |> fun (x) -> x.[0]
+    
+
+let personalTopThree (values: int list): int list = 
+    values |> List.sortDescending |> fun (x) -> x.[0..2] |> Seq.toList
+
+[10; 30; 90; 30; 100; 20; 10; 0; 30; 40; 40; 70; 70] |> personalTopThree |> Seq.toList
