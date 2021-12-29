@@ -106,7 +106,7 @@ C:\Users\xgenx\Exercism\fsharp\leap\bin\Debug\netcoreapp5.0\zh-Hans\Microsoft.Vi
 C:\Users\xgenx\Exercism\fsharp\leap\bin\Debug\netcoreapp5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\xgenx\Exercism\fsharp\leap\bin\Debug\netcoreapp5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\xgenx\Exercism\fsharp\leap\bin\Debug\netcoreapp5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\xgenx\Exercism\fsharp\leap\obj\Debug\netcoreapp5.0\Leap.fsprojAssemblyReference.cache
 C:\Users\xgenx\Exercism\fsharp\leap\obj\Debug\netcoreapp5.0\Leap.fsproj.CopyComplete
 C:\Users\xgenx\Exercism\fsharp\leap\obj\Debug\netcoreapp5.0\Leap.dll
 C:\Users\xgenx\Exercism\fsharp\leap\obj\Debug\netcoreapp5.0\Leap.pdb
+C:\Users\xgenx\Exercism\fsharp\leap\obj\Debug\netcoreapp5.0\Leap.fsproj.AssemblyReference.cache
