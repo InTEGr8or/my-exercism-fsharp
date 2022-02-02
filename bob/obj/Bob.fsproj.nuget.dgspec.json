@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\bob\\Bob.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xgenx\\Exercism\\fsharp\\bob\\Bob.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xgenx\\Exercism\\fsharp\\bob\\Bob.fsproj",
+        "projectName": "Bob",
+        "projectPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\bob\\Bob.fsproj",
+        "packagesPath": "C:\\Users\\xgenx\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xgenx\\Exercism\\fsharp\\bob\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xgenx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts.qqcatalyst.com/repository/nuget-hosted/": {},
+          "https://gitlab.com/sre-two-point-oh/sre-qq-utilities-and-scripts/-/packages": {},
+          "https://qqdevelopment.pkgs.visualstudio.com/_packaging/QQHostedNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            },
+            "FsUnit.xUnit": {
+              "target": "Package",
+              "version": "[4.0.4, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )",
+              "generatePathProperty": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )",
+              "generatePathProperty": true
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
