@@ -4,3 +4,4 @@ storage: none
 framework: netcoreapp3.1, netstandard2.0, netstandard2.1
 nuget Deedle 2.3.0
 nuget FSharp.Charting 2.1.0
+nuget System.Text.RegularExpressions

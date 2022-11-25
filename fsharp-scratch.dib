@@ -10,6 +10,19 @@ abbreviate "The quick brown-fox jumps over the lazy dog"
 
 #!fsharp
 
+let square (n: int): Result<uint64,string> = 
+    if (List.contains n [1..64]) then Ok (pown 2UL (n - 1))
+    else Error "square must be between 1 and 64"
+
+square 16 |> printfn "%A"
+
+#!fsharp
+
+let grains = [1..64] |> seq |> Seq.sumBy(fun i -> pown 2UL (i - 1))
+grains
+
+#!fsharp
+
 let reverse (input: string): string =
     input |> Seq.rev |> String.Concat
 
@@ -74,3 +87,44 @@ let personalTopThree (values: int list): int list =
     values |> List.sortDescending |> fun (x) -> x.[0..2] |> Seq.toList
 
 [10; 30; 90; 30; 100; 20; 10; 0; 30; 40; 40; 70; 70] |> personalTopThree |> Seq.toList
+
+#!fsharp
+
+// let base64 = ['0'..'9'] @ ['a'..'z'] @ ['A'..'Z'] @ ['/';'='] |> String.Concat
+let base64 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/=" |> Seq.toArray
+
+let getNum num = 
+    num
+
+let add a b =
+    a + b
+
+let rec toBase64 num =
+    // 1aA = (1* (pown 64 2)) + (11 * (pown 64 1)) + (36 * (pown 64 0))
+    if num > 64 then
+        [base64[num % 64]] @ (toBase64 (num / 64) )
+    else 
+        [base64[num]]
+
+let charToInt (cin:char):int =
+    base64 |> Array.findIndex (fun c -> c = cin)
+
+let fromBase64 (codes:char list) =
+    codes 
+    |> List.map (fun elem -> (charToInt elem)) 
+    // |> List.sum
+    
+
+toBase64 23445 
+|> fromBase64
+
+#!fsharp
+
+printfn "%d" (23445 / 64 /64)
+printfn "%d" (23446 - 5*64*64)
+printfn "%d" (2966 / 64)
+printfn "%d" (47 * 64)
+
+#!fsharp
+
+base64 |> Array.map (fun elem -> (charToInt elem)) |> Array.sum |> printfn "%A"

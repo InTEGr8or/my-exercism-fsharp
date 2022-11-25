@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oh9ypBfp5UAAvoXFGsvkpGcAysUiyCdLivkYWXL4sHkn/91xvMY1gtH4FwLKCaw+utb/7EjN6CPFysABzfx61A==",
+  "dgSpecHash": "MWMwCcgy8OaS4xhAQYsEquiU+d4znpGgdTZ/T9GSzKcNlqxzJyITLZu9RdWTXSIxnsc0E7WxW4HyZenrHKzVcQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\xgenx\\Exercism\\fsharp\\bank-account\\BankAccount.fsproj",
+  "projectFilePath": "C:\\Users\\xgenx\\Exercism\\fsharp\\bank-account\\BankAccount.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\xgenx\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\fsunit.xunit\\4.0.4\\fsunit.xunit.4.0.4.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -59,10 +59,7 @@
     "C:\\Users\\xgenx\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\xgenx\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\xgenx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+    "C:\\Users\\xgenx\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

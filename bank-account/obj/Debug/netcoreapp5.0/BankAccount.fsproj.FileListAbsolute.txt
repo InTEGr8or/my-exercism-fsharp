@@ -1,0 +1,3 @@
+C:\Users\xgenx\Exercism\fsharp\bank-account\obj\Debug\netcoreapp5.0\BankAccount.fsproj.AssemblyReference.cache
+C:\Users\xgenx\Exercism\fsharp\bank-account\obj\Debug\netcoreapp5.0\BankAccount.AssemblyInfoInputs.cache
+C:\Users\xgenx\Exercism\fsharp\bank-account\obj\Debug\netcoreapp5.0\BankAccount.AssemblyInfo.fs
